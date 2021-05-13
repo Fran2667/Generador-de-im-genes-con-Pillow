@@ -9,7 +9,7 @@ import itertools
 # PASO 1: DEFINIMOS LA RUTA DE LA CARA BASE.
 # PARA TODAS LAS RUTAS EN EL PROGRAMA PONDREMOS ANTES r SEGUIDO DE LA RUTA ENTRE COMILLAS:
 
-cara_base = Image.open(r'C:\Users\fran2\Desktop\Programming\NFTS\Pruebas\base.png') #AQUÍ LA RUTA, DENTRO DEL PARÉNTESIS
+cara_base = Image.open(r'path') #AQUÍ LA RUTA, DENTRO DEL PARÉNTESIS
 
 '''
 cara_base.show()
@@ -35,9 +35,9 @@ def get_all_images(folder) :
 # PASO 2: DEFINIMOS VARIABLE Y RUTA DE LAS CARPETAS DE CARACTERÍSTICAS
 # (      EJEMPLO: ojos=(r"C:\Users\fran\Desktop\Programming\tokens\Pruebas\ojos")       )
 
-ojos=(r"C:\Users\fran2\Desktop\Programming\NFTS\Pruebas\ojos")
-bocas=(r"C:\Users\fran2\Desktop\Programming\NFTS\Pruebas\bocas")
-narices=(r"C:\Users\fran2\Desktop\Programming\NFTS\Pruebas\narices")
+ojos=(r"path")
+bocas=(r"path")
+narices=(r"path")
 
 # PASO 3: EJECUTAMOS LA FUNCIÓN CON CADA VARIABLE ( ESCRIBE   lista_x = get_all_images(x)  ) ( x = CADA CARACTERÍSTICA )
 
@@ -118,7 +118,7 @@ print(lista_de_listas)
 # PASO 5: DEFINIR LA RUTA DE CARPETA DESTINO DONDE SE GUARDEN LAS IMÁGENES COMPUESTAS.
 
 new = cara_base.copy()
-save_path = r'C:\Users\fran2\Desktop\Programming\NFTS\Pruebas\imagenes_guardadas' #AQUÍ SE PONE LA RUTA
+save_path = r'path' #AQUÍ SE PONE LA RUTA
 i=0
 
 for lista in lista_de_listas:
